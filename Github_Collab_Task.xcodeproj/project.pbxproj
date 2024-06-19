@@ -21,6 +21,9 @@
 		C318A3972C22C8AE00A0717B /* PreviouslyRentedTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C318A3962C22C8AE00A0717B /* PreviouslyRentedTableCell.swift */; };
 		C318A3992C22C8E000A0717B /* PreviouslyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C318A3982C22C8E000A0717B /* PreviouslyCollectionViewCell.swift */; };
 		C318A39B2C22C95800A0717B /* AdvertisementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C318A39A2C22C95800A0717B /* AdvertisementTableViewCell.swift */; };
+		C33089E62C22E8CE00DF56A5 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33089E52C22E8CE00DF56A5 /* Authentication.storyboard */; };
+		C33089E92C22E8F700DF56A5 /* LoginScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33089E72C22E8F700DF56A5 /* LoginScreenVC.swift */; };
+		C33089EA2C22E8F700DF56A5 /* RegisterScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33089E82C22E8F700DF56A5 /* RegisterScreenVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		C318A3962C22C8AE00A0717B /* PreviouslyRentedTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviouslyRentedTableCell.swift; sourceTree = "<group>"; };
 		C318A3982C22C8E000A0717B /* PreviouslyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviouslyCollectionViewCell.swift; sourceTree = "<group>"; };
 		C318A39A2C22C95800A0717B /* AdvertisementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementTableViewCell.swift; sourceTree = "<group>"; };
+		C33089E52C22E8CE00DF56A5 /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		C33089E72C22E8F700DF56A5 /* LoginScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenVC.swift; sourceTree = "<group>"; };
+		C33089E82C22E8F700DF56A5 /* RegisterScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterScreenVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				C318A36E2C22B78600A0717B /* ViewController.swift */,
+				C33089E72C22E8F700DF56A5 /* LoginScreenVC.swift */,
+				C33089E82C22E8F700DF56A5 /* RegisterScreenVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -101,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				C318A3702C22B78600A0717B /* Main.storyboard */,
+				C33089E52C22E8CE00DF56A5 /* Authentication.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -221,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33089E62C22E8CE00DF56A5 /* Authentication.storyboard in Resources */,
 				C318A37A2C22B78800A0717B /* Base in Resources */,
 				C318A38F2C22C76300A0717B /* Assets.xcassets in Resources */,
 				C318A3722C22B78600A0717B /* Base in Resources */,
@@ -234,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33089E92C22E8F700DF56A5 /* LoginScreenVC.swift in Sources */,
 				C318A3912C22C80900A0717B /* HeaderCollectionCellVC.swift in Sources */,
 				C318A38D2C22C02700A0717B /* CustomTabbar.swift in Sources */,
 				C318A3992C22C8E000A0717B /* PreviouslyCollectionViewCell.swift in Sources */,
@@ -241,6 +252,7 @@
 				C318A39B2C22C95800A0717B /* AdvertisementTableViewCell.swift in Sources */,
 				C318A38B2C22BFA500A0717B /* CustomTabbarController.swift in Sources */,
 				C318A3752C22B78600A0717B /* Github_Collab_Task.xcdatamodeld in Sources */,
+				C33089EA2C22E8F700DF56A5 /* RegisterScreenVC.swift in Sources */,
 				C318A36F2C22B78600A0717B /* ViewController.swift in Sources */,
 				C318A36B2C22B78600A0717B /* AppDelegate.swift in Sources */,
 				C318A36D2C22B78600A0717B /* SceneDelegate.swift in Sources */,
