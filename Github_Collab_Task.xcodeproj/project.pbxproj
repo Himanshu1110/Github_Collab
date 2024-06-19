@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C313869A2C2301600099AAE2 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31386992C2301600099AAE2 /* UserProfile.storyboard */; };
+		C313869E2C2301850099AAE2 /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313869D2C2301850099AAE2 /* UserProfileVC.swift */; };
 		C318A36B2C22B78600A0717B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C318A36A2C22B78600A0717B /* AppDelegate.swift */; };
 		C318A36D2C22B78600A0717B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C318A36C2C22B78600A0717B /* SceneDelegate.swift */; };
 		C318A36F2C22B78600A0717B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C318A36E2C22B78600A0717B /* ViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C31386992C2301600099AAE2 /* UserProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserProfile.storyboard; sourceTree = "<group>"; };
+		C313869D2C2301850099AAE2 /* UserProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
 		C318A3672C22B78600A0717B /* Github_Collab_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Github_Collab_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C318A36A2C22B78600A0717B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C318A36C2C22B78600A0717B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 				C318A36E2C22B78600A0717B /* ViewController.swift */,
 				C33089E72C22E8F700DF56A5 /* LoginScreenVC.swift */,
 				C33089E82C22E8F700DF56A5 /* RegisterScreenVC.swift */,
+				C313869D2C2301850099AAE2 /* UserProfileVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 			children = (
 				C318A3702C22B78600A0717B /* Main.storyboard */,
 				C33089E52C22E8CE00DF56A5 /* Authentication.storyboard */,
+				C31386992C2301600099AAE2 /* UserProfile.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 				C318A37A2C22B78800A0717B /* Base in Resources */,
 				C318A38F2C22C76300A0717B /* Assets.xcassets in Resources */,
 				C318A3722C22B78600A0717B /* Base in Resources */,
+				C313869A2C2301600099AAE2 /* UserProfile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +260,7 @@
 				C318A38B2C22BFA500A0717B /* CustomTabbarController.swift in Sources */,
 				C318A3752C22B78600A0717B /* Github_Collab_Task.xcdatamodeld in Sources */,
 				C33089EA2C22E8F700DF56A5 /* RegisterScreenVC.swift in Sources */,
+				C313869E2C2301850099AAE2 /* UserProfileVC.swift in Sources */,
 				C318A36F2C22B78600A0717B /* ViewController.swift in Sources */,
 				C318A36B2C22B78600A0717B /* AppDelegate.swift in Sources */,
 				C318A36D2C22B78600A0717B /* SceneDelegate.swift in Sources */,
