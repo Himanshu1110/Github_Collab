@@ -24,6 +24,7 @@ class CustomTabbarController: UITabBarController {
             super.viewDidLoad()
 
         let controller1 = UIStoryboard(name: "Main", bundle: nibBundle).instantiateViewController(identifier: "ViewController") as! ViewController
+        
             controller1.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), tag: 1)
             let nav1 = UINavigationController(rootViewController: controller1)
 
@@ -32,7 +33,7 @@ class CustomTabbarController: UITabBarController {
             let nav2 = UINavigationController(rootViewController: controller2)
             nav2.title = ""
 
-            let controller3 = UIViewController()
+            let controller3 = UIStoryboard(name: "UserProfile", bundle: nibBundle).instantiateViewController(identifier: "UserProfileVC") as! UserProfileVC
         controller3.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person"), tag: 3)
             let nav3 = UINavigationController(rootViewController: controller3)
            
